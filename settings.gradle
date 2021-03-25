@@ -1,2 +1,3 @@
+include ':VerificationCodeView'
 include ':app'
 rootProject.name = "VerificationView"

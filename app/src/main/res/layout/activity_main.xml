@@ -8,7 +8,8 @@
     android:padding="40dp"
     tools:context=".MainActivity">
 
-    <com.zz.verificationview.VerificationCodeView
+
+    <com.zz.View.VerificationCodeView
         android:id="@+id/etView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,7 +18,7 @@
         app:zz_et_textSize = "8sp"
         app:zz_et_textColor="@color/black"/>
 
-    <com.zz.verificationview.VerificationCodeView
+    <com.zz.View.VerificationCodeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -31,7 +32,7 @@
         app:zz_et_underline_show="false"
         app:zz_et_width="50dp" />
 
-    <com.zz.verificationview.VerificationCodeView
+    <com.zz.View.VerificationCodeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -41,5 +42,8 @@
         app:zz_et_spacing="10dp"
         app:zz_et_underline_show="false"
         app:zz_et_width="50dp" />
+
+
+
 
 </LinearLayout>
