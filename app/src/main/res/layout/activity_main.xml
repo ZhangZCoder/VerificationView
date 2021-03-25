@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+    <com.zz.verificationview.VerificationCodeView
+        android:id="@+id/etView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:zz_et_underline_show="true"
+        app:zz_et_underline_focus_color = "@color/cardview_dark_background"
+        app:zz_et_textSize = "8sp"
+        app:zz_et_textColor="@color/black"/>
+
+    <com.zz.verificationview.VerificationCodeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:zz_et_background="@drawable/et_bg"
+        app:zz_et_cursor_color="@color/black"
+        app:zz_et_cursor_height="40dp"
+        app:zz_et_cursor_width="1dp"
+        app:zz_et_height="50dp"
+        app:zz_et_inputType="numberPassword"
+        app:zz_et_number="5"
+        app:zz_et_underline_show="false"
+        app:zz_et_width="50dp" />
+
+    <com.zz.verificationview.VerificationCodeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:zz_et_background="@drawable/et_bg"
+        app:zz_et_focus_background="@drawable/et_focus_bg"
+        app:zz_et_height="50dp"
+        app:zz_et_spacing="10dp"
+        app:zz_et_underline_show="false"
+        app:zz_et_width="50dp" />
+
+</LinearLayout>
