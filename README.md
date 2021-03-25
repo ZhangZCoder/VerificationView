@@ -1,6 +1,5 @@
 # VerificationView
 ##自定义验证码输入框，支持自定义背景样式，输入框间距，输入格式，输入框个数，焦点样式，光标样式，字体等
-![avatar](/Users/huatu2/Documents/WechatIMG227.png)
 ```
 <resources>
 
